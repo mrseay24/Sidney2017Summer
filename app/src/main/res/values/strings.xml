@@ -2,4 +2,7 @@
     <string name="app_name">Sidney2017Summer</string>
     <string name="hello">Hello Android Class</string>
     <string name="test">content</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_demo_fragment">Hello Demo Fragment</string>
 </resources>
