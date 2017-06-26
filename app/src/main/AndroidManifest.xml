@@ -6,6 +6,7 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:name=".SidApplication"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -18,13 +19,28 @@
         </activity>
         <activity android:name=".ViewPagerActivity" />
         <activity
-            android:name=".LaunchModeActivity"
+            android:name=".ActivityA"
+            android:launchMode="standard" />
+        <activity
+            android:name=".ActivityB"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".ActivityC"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ActivityD"
             android:launchMode="singleInstance" />
-        <activity android:name=".ScaleTypeActivity" />
+        <activity android:name=".NinePatchActivity" />
         <activity android:name=".NotificationActivity" />
+        <activity android:name=".fragment.AdvanceActivity" />
         <activity android:name=".AdvanceListViewActivity" />
         <activity android:name=".AdvanceViewPagerActivity" />
-        <activity android:name=".NinePatchActivity"></activity>
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".ResultActivity1" />
+        <activity android:name=".ResultActivity2" />
+        <activity android:name=".RadioGroupActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".DialogActivity"></activity>
     </application>
 
 </manifest>

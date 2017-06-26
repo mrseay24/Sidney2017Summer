@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sidneyseay.sidney2017summer.DialogActivity">
+
+    <RadioGroup
+        android:id="@+id/activity_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="480dp">
+
+        <RadioButton
+            android:id="@+id/dlg1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="NormalDialog"/>
+
+        <RadioButton
+            android:id="@+id/dlg2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ListDialog"/>
+
+        <RadioButton
+            android:id="@+id/dlg3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SingleChoiceDialog"/>
+
+        <RadioButton
+            android:id="@+id/dlg4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="MultiChoiceDialog"/>
+
+        <RadioButton
+            android:id="@+id/dlg5"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="WaitingDialog"/>
+
+        <RadioButton
+            android:id="@+id/dlg6"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ProgressDialog"/>
+
+        <RadioButton
+            android:id="@+id/dlg7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="InputDialog"/>
+
+        <RadioButton
+            android:id="@+id/dlg8"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="CustomDialog"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/activity_dialog_ok"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="OK"/>
+
+
+
+</LinearLayout>
