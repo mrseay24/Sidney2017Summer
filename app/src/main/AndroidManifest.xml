@@ -3,10 +3,10 @@
     package="com.example.sidneyseay.sidney2017summer">
 
     <application
+        android:name=".SidApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:name=".SidApplication"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
@@ -40,7 +40,10 @@
         <activity android:name=".ResultActivity2" />
         <activity android:name=".RadioGroupActivity" />
         <activity android:name=".CheckBoxActivity" />
-        <activity android:name=".DialogActivity"></activity>
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".HandlerActivity" />
+        <activity android:name=".RunableHandlerActivity" />
+        <activity android:name=".AnimationActivity"></activity>
     </application>
 
 </manifest>

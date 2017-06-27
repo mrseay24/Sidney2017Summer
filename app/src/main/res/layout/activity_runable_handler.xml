@@ -4,19 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sidneyseay.sidney2017summer.NinePatchActivity"
     android:orientation="vertical">
 
-    <ImageView
+    <EditText
+        android:id="@+id/activity_handler_runable_et"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_weight="10"
-        android:background="@drawable/nomail"/>
+        android:text="20"
+        android:gravity="center"
+        android:inputType="number"
+        android:background="@null"
+        android:textSize="150sp"/>
 
-    <ImageView
+    <Button
+        android:id="@+id/activity_handler_runable_bt"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_weight="10"
-        android:background="@mipmap/nomail"/>
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="start"/>
 
 </LinearLayout>

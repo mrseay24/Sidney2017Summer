@@ -18,7 +18,7 @@ import butterknife.OnClick;
 
 public class DialogActivity extends BaseActivity {
 
-    private int checkedID = 0;
+    private int checkedID = 12345;
 
 
     @BindView(R.id.activity_dialog)
@@ -68,7 +68,7 @@ public class DialogActivity extends BaseActivity {
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
-                shortToast("YOu chose: " + checkedId);
+                shortToast("You chose: " + checkedId);
                 checkedID = checkedId;
             }
         });

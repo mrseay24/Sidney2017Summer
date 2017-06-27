@@ -22,10 +22,10 @@ public class CheckBoxActivity extends BaseActivity {
     @BindView(R.id.activity_check_box_1)
     CheckBox checkBox1;
 
-    @BindView(R.id.activity_check_box_1)
+    @BindView(R.id.activity_check_box_2)
     CheckBox checkBox2;
 
-    @BindView(R.id.activity_check_box_1)
+    @BindView(R.id.activity_check_box_3)
     CheckBox checkBox3;
 
     @OnClick(R.id.activity_check_box_submit)

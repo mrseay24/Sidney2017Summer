@@ -14,13 +14,16 @@ import android.widget.ListView;
 import com.example.sidneyseay.sidney2017summer.ActivityA;
 import com.example.sidneyseay.sidney2017summer.AdvanceListViewActivity;
 import com.example.sidneyseay.sidney2017summer.AdvanceViewPagerActivity;
+import com.example.sidneyseay.sidney2017summer.AnimationActivity;
 import com.example.sidneyseay.sidney2017summer.CheckBoxActivity;
 import com.example.sidneyseay.sidney2017summer.DialogActivity;
+import com.example.sidneyseay.sidney2017summer.HandlerActivity;
 import com.example.sidneyseay.sidney2017summer.NinePatchActivity;
 import com.example.sidneyseay.sidney2017summer.NotificationActivity;
 import com.example.sidneyseay.sidney2017summer.R;
 import com.example.sidneyseay.sidney2017summer.RadioGroupActivity;
 import com.example.sidneyseay.sidney2017summer.ResultActivity;
+import com.example.sidneyseay.sidney2017summer.RunableHandlerActivity;
 import com.example.sidneyseay.sidney2017summer.ScaleTypeActivity;
 import com.example.sidneyseay.sidney2017summer.ViewPagerActivity;
 import com.example.sidneyseay.sidney2017summer.adapter.ListNormalAdapter;
@@ -58,13 +61,13 @@ public class DemoFragment extends Fragment {
         contentList.add("AdvanceListView");
         contentList.add("AdvanceViewPager");
         contentList.add("LaunchMode");
-        contentList.add("E");
-        contentList.add("F");
-        contentList.add("G");
-        contentList.add("H");
-        contentList.add("I");
-        contentList.add("J");
-        contentList.add("K");
+        contentList.add("ActivityResult");
+        contentList.add("RadioGroup");
+        contentList.add("CheckBox");
+        contentList.add("Dialog");
+        contentList.add("Handler");
+        contentList.add("RunableHandler");
+        contentList.add("Animation");
 
     }
 
@@ -161,6 +164,18 @@ public class DemoFragment extends Fragment {
                 case 10:
                     Intent intent10 = new Intent(getActivity(), DialogActivity.class);
                     startActivity(intent10);
+                    break;
+                case 11:
+                    Intent intent11 = new Intent(getActivity(), HandlerActivity.class);
+                    startActivity(intent11);
+                    break;
+                case 12:
+                    Intent intent12 = new Intent(getActivity(), RunableHandlerActivity.class);
+                    startActivity(intent12);
+                    break;
+                case 13:
+                    Intent intent13 = new Intent(getActivity(), AnimationActivity.class);
+                    startActivity(intent13);
                     break;
                 default:
             }
