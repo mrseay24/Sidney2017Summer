@@ -7,12 +7,13 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
+
 import butterknife.BindView;
-import butterknife.OnClick;
 import butterknife.ButterKnife;
+import butterknife.OnClick;
 
 
-public class AnimationActivity extends AppCompatActivity {
+public class AnimationActivity extends BaseActivity {
 
     @BindView(R.id.activity_animation_tv)
     TextView textView;
@@ -24,6 +25,7 @@ public class AnimationActivity extends AppCompatActivity {
 
 
     @OnClick(R.id.activity_animation_alpha)
+
     public void alpha(View v){
         textView.startAnimation(alphaAnimation);
     }
@@ -50,15 +52,16 @@ public class AnimationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animation);
+        ButterKnife.bind(this);
         initialAnimation();
-        textView.setOnClickListener(new View.OnClickListener(){
+        textView.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
-
-            }
-        });
-
+                public void onClick (View v){
+                    shortToast("You clicked");
+                }
+            });
     }
+
 
     private void initialAnimation() {
         alphaAnimation = AnimationUtils.loadAnimation(this, R.anim.anim_alpha);

@@ -17,7 +17,6 @@ public class CustomDialog extends Dialog {
 
     public interface ICustomDialogListener{
         public void onOKClicked(String msg);
-        //abstract void onCancelClicked();
     }
 
     @OnClick(R.id.dialog_custom_ok)
