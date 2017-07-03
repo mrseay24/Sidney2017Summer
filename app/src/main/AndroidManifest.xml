@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.sidneyseay.sidney2017summer">
 
+
+
     <application
         android:name=".SidApplication"
         android:allowBackup="true"
@@ -47,6 +49,7 @@
         <activity android:name=".AnimatorActivity" />
         <activity android:name=".GestureActivity" />
         <activity android:name=".SharedPreferenceActivity"></activity>
+        <service android:name=".service.TestService"></service>
     </application>
 
 </manifest>

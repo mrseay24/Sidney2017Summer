@@ -27,6 +27,7 @@ import com.example.sidneyseay.sidney2017summer.RadioGroupActivity;
 import com.example.sidneyseay.sidney2017summer.ResultActivity;
 import com.example.sidneyseay.sidney2017summer.RunableHandlerActivity;
 import com.example.sidneyseay.sidney2017summer.ScaleTypeActivity;
+import com.example.sidneyseay.sidney2017summer.ServiceActivity;
 import com.example.sidneyseay.sidney2017summer.SharedPreferenceActivity;
 import com.example.sidneyseay.sidney2017summer.ViewPagerActivity;
 import com.example.sidneyseay.sidney2017summer.adapter.ListNormalAdapter;
@@ -74,6 +75,7 @@ public class DemoFragment extends Fragment {
         contentList.add("AnimatorActivity");
         contentList.add("Gesture");
         contentList.add("SharedPreference");
+        contentList.add("Service&Broadcast");
 
     }
 
@@ -194,6 +196,10 @@ public class DemoFragment extends Fragment {
                 case 16:
                     Intent intent16 = new Intent(getActivity(), SharedPreferenceActivity.class);
                     startActivity(intent16);
+                    break;
+                case 17:
+                    Intent intent17 = new Intent(getActivity(), ServiceActivity.class);
+                    startActivity(intent17);
                     break;
                 default:
             }

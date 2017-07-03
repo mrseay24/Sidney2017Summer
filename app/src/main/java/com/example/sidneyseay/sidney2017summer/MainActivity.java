@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         OnClickListener listener = new OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "You clicked work", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "You clicked Work", Toast.LENGTH_SHORT).show();
                 tv_work.setTextColor(Color.RED);
                 tv_demo.setTextColor(Color.BLACK);
                 getSupportFragmentManager().beginTransaction().replace(R.id.activity_main_fragment,
